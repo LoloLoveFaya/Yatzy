@@ -7,8 +7,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class YatzyTest {
 
-    YatzyScoreCalculator yatzyScoreCalculator;
-
     @Test
     public void should_return_chance_score() {
         int[] dice = {1,1,3,3,6};
